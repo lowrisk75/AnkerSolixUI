@@ -1,0 +1,130 @@
+type: picture-elements
+image: /local/anker/home.png
+elements:
+  - type: state-label
+    entity: sensor.daily_energy_display
+    style:
+      top: 71%
+      left: 22%
+      color: grey
+      font-size: 16px
+  - type: state-label
+    entity: sensor.electric_meter_channel_1_power
+    style:
+      top: 73%
+      left: 20%
+      color: grey
+      font-size: 16px
+  - type: state-label
+    entity: sensor.ankersolar_switch_0_power
+    style:
+      top: 73.5%
+      left: 40%
+      color: '#F9C536'
+      font-size: 16px
+      text-align: right;
+  - type: state-label
+    entity: sensor.system_home_cost_savings
+    style:
+      top: 92%
+      left: 22%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.system_home_co2_savings
+    style:
+      top: 92%
+      left: 48%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.system_home_yield_total
+    style:
+      top: 92%
+      left: 78%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.system_home_sb_state_of_charge
+    style:
+      top: 41%
+      left: 65%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.solarbank_e1600_state_of_charge
+    prefix: (
+    style:
+      top: 41%
+      left: 73%
+      color: grey
+      font-size: 12px
+  - type: state-label
+    entity: sensor.solarbank_e1600_state_of_charge_2
+    prefix: ''
+    suffix: )
+    style:
+      top: 41%
+      left: 81%
+      color: grey
+      font-size: 12px
+  - type: state-label
+    entity: sensor.solarbank_e1600_battery_energy
+    style:
+      top: 19.5%
+      left: 90%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.solarbank_e1600_battery_energy_2
+    style:
+      top: 22%
+      left: 92%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.solarbank_e1600_solar_power
+    style:
+      top: 22%
+      left: 51%
+      color: black
+      font-size: 16px
+  - type: state-label
+    entity: sensor.solarbank_e1600_solar_power_2
+    style:
+      top: 24%
+      left: 51%
+      color: black
+      font-size: 16px
+      text-align: right;
+  - type: state-label
+    entity: sensor.anker_total_solar_power
+    style:
+      top: 19.45%
+      left: 49.5%
+      color: '#8bbce8'
+      font-size: 16px
+      text-align: right;
+  - type: state-label
+    entity: sensor.all_solar_power_together
+    style:
+      top: 17%
+      left: 49.5%
+      color: black
+      font-size: 16px
+      text-align: right;
+  - type: state-label
+    entity: sensor.solarinverters
+    style:
+      top: 75.5%
+      left: 40%
+      color: '#8bbce8'
+      font-size: 16px
+      text-align: right;
+  - type: state-label
+    entity: number.solarbank_e1600_system_output_preset
+    style:
+      top: 80%
+      left: 70%
+      color: black
+      font-size: 16px
