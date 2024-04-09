@@ -2,7 +2,7 @@
 
 Pour l'intégration actuelle, vous devez voir le travail exceptionnel de @thomluther ici : https://github.com/thomluther/hacs-anker-solix (n'oubliez pas de mettre une étoile à son travail ! (coin supérieur droit))
 
-Pour que ce Picture Elements fonctionne, vous devez copier l'image d'arrière-plan "home.png" à l'intérieur de Home Assistant : /www/anker/home.png.
+Pour que ce Picture Elements fonctionne, vous devez copier l'image d'arrière-plan "home.png" à l'intérieur de Home Assistant : /www/anker/homep.png.
 
 Dans Home Assistant, lorsque vous modifiez votre tableau de bord, cliquez sur 'Ajouter une carte', choisissez 'Carte d'éléments d'image', supprimez tout à l'intérieur du code par défaut et remplacez-le par le code ci-dessous.
 
